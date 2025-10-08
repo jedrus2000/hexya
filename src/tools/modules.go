@@ -15,7 +15,7 @@
 package tools
 
 import (
-	"io/ioutil"
+	"os"
 	"path/filepath"
 )
 
@@ -28,7 +28,7 @@ func ListStaticFiles(resourceDir, subDir string, modules []string, diskPath bool
 	var res []string
 	for _, module := range modules {
 		dirName := filepath.Join(resourceDir, "static", module, subDir)
-		fileInfos, _ := ioutil.ReadDir(dirName)
+		fileInfos, _ := os.ReadDir(dirName)
 		for _, fi := range fileInfos {
 			if !fi.IsDir() {
 				fPath := filepath.Join("static", module, subDir, fi.Name())

@@ -84,3 +84,5 @@ pool/
 /xsd/
 /src/server/resources/
 /src/server/i18n/
+/.claude/
+/hexya.toml

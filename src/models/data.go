@@ -7,7 +7,6 @@ import (
 	"encoding/base64"
 	"encoding/csv"
 	"io"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -133,7 +132,7 @@ func getRecordValuesMap(headers []string, modelName string, record []string, env
 			}
 			dir := filepath.Dir(fileName)
 			bFileName := filepath.Join(dir, record[i])
-			fileContent, err := ioutil.ReadFile(bFileName)
+			fileContent, err := os.ReadFile(bFileName)
 			if err != nil {
 				log.Panic("Unable to open file with binary data", "error", err, "line", line, "field", headers[i], "value", record[i])
 			}

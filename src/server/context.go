@@ -97,7 +97,7 @@ func (c *Context) HTTPGet(uri string) (*http.Response, error) {
 	sanitizedURI, _ := url.ParseRequestURI(uri)
 	targetUrl := fmt.Sprintf("%s://%s%s", scheme, c.Request.Host, sanitizedURI.RequestURI())
 
-	req, _ := http.NewRequest(http.MethodGet, targetUrl, nil)
+	req, _ := http.NewRequestWithContext(c.Request.Context(), http.MethodGet, targetUrl, nil)
 	sessionCookie, _ := c.Cookie("hexya-session")
 	req.AddCookie(&http.Cookie{
 		Name:  "hexya-session",

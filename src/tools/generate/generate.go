@@ -7,7 +7,6 @@ import (
 	"bytes"
 	"fmt"
 	"go/format"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"sort"
@@ -372,7 +371,7 @@ func CreateFileFromTemplate(fileName string, template *template.Template, data i
 			fileName, "mData", fmt.Sprintf("%#v", data), "src", srcBuffer.String())
 	}
 	// Write to file
-	err = ioutil.WriteFile(fileName, srcData, 0644)
+	err = os.WriteFile(fileName, srcData, 0644)
 	if err != nil {
 		log.Panic("Error while saving generated source file", "error", err, "fileName", fileName)
 	}

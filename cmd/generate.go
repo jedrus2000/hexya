@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"go/types"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -150,11 +150,27 @@ func createSymlinks(modules []*generate.ModuleInfo, projectDir string) {
 }
 
 func loadProgram(targetPaths []string, tests bool) ([]*packages.Package, error) {
+	// Get GOARCH from environment or default to amd64
+	goarch := os.Getenv("GOARCH")
+	if goarch == "" {
+		goarch = "amd64"
+	}
+	goos := os.Getenv("GOOS")
+	if goos == "" {
+		goos = "linux"
+	}
+
 	conf := packages.Config{
 		Mode: packages.NeedDeps | packages.NeedSyntax | packages.NeedTypesInfo | packages.NeedTypes | packages.NeedTypesSizes |
 			packages.NeedImports | packages.NeedName | packages.NeedFiles | packages.NeedCompiledGoFiles,
 		Tests: tests,
 	}
+	// Set Sizes to avoid nil pointer dereference in newer Go versions
+	sizes := types.SizesFor("gc", goarch)
+	if sizes != nil {
+		conf.Mode |= packages.NeedTypesSizes
+	}
+
 	packs, err := packages.Load(&conf, targetPaths...)
 	return packs, err
 }
@@ -230,7 +246,7 @@ func copyGoModReplaces(poolDir string) {
 func writeFileFromTemplate(fileName string, tmpl *template.Template, data interface{}) error {
 	var buf bytes.Buffer
 	tmpl.Execute(&buf, data)
-	err := ioutil.WriteFile(fileName, buf.Bytes(), 0644)
+	err := os.WriteFile(fileName, buf.Bytes(), 0644)
 	return err
 }
 
