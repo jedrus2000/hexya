@@ -6,7 +6,7 @@ package base
 import (
 	"testing"
 
-	"github.com/hexya-addons/base/basetypes"
+	"github.com/jedrus2000/hexya/addons/base/basetypes"
 	"github.com/jedrus2000/hexya/hexya/src/models"
 	"github.com/jedrus2000/hexya/hexya/src/models/fields"
 	"github.com/jedrus2000/hexya/hexya/src/models/security"

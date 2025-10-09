@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/hexya-addons/base v0.1.6
+	github.com/jedrus2000/hexya/addons/base v0.2.0
 	github.com/jedrus2000/hexya/hexya v0.2.0
 	github.com/jedrus2000/hexya/pool v0.2.0
 	github.com/smartystreets/goconvey v1.8.1

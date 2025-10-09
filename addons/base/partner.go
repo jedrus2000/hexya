@@ -18,7 +18,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/hexya-addons/base/basetypes"
+	"github.com/jedrus2000/hexya/addons/base/basetypes"
 	"github.com/jedrus2000/hexya/hexya/src/actions"
 	"github.com/jedrus2000/hexya/hexya/src/i18n"
 	"github.com/jedrus2000/hexya/hexya/src/models"
