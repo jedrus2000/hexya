@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+
+        <view inherit_id="base_view_users_form_simple_modif" model="User">
+            <xpath expr="//field[@name='email']" position="after">
+                <field name="chatter_position" readonly="0"/>
+            </xpath>
+            <xpath expr="//group[-1]" position="after">
+                <group name="App Sidebar">
+                    <field name="sidebar_visible" readonly="0"/>
+                </group>
+            </xpath>
+        </view>
+
+    </data>
+</hexya>

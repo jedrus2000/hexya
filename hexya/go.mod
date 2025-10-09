@@ -1,4 +1,4 @@
-module github.com/jedrus2000/hexya
+module github.com/jedrus2000/hexya/hexya
 
 go 1.24.0
 
@@ -11,7 +11,7 @@ require (
 	github.com/gin-contrib/sessions v1.0.4
 	github.com/gin-gonic/gin v1.11.0
 	github.com/google/uuid v1.6.0
-	github.com/hexya-erp/pool v1.0.2
+	github.com/jedrus2000/hexya/pool v0.2.0
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/lib/pq v1.10.9
 	github.com/smartystreets/goconvey v1.8.1

@@ -1,0 +1,2101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. field:User.GroupsCount
+msgid "# Groups"
+msgstr ""
+
+#. code:
+#. code:
+#. code:
+msgid "%s (copy)"
+msgstr "%s (kópia)"
+
+#. field:PartnerTitle.Shortcut
+msgid "Abbreviation"
+msgstr "Skratka"
+
+#. field:Company.Users
+msgid "Accepted Users"
+msgstr "Povolený používatelia"
+
+#. resource:base_view_users_form
+msgid "Access Rights"
+msgstr "Prístupové práva"
+
+#. field:Attachment.AccessToken
+msgid "Access Token"
+msgstr "Prístupový Token"
+
+#. field:BankAccount.Partner
+msgid "Account Holder"
+msgstr "Držiteľ účtu"
+
+#. field:BankAccount.Name
+msgid "Account Number"
+msgstr "Číslo účtu"
+
+#. field:BankAccount.AccountType
+msgid "Account Type"
+msgstr "Typ účtu"
+
+#. resource:base_ir_cron_view
+msgid "Action to Trigger"
+msgstr ""
+
+#. field:PartnerIndustry.Active
+#. field:Cron.Active
+#. field:Currency.Active
+#. field:Sequence.Active
+#. field:Bank.Active
+#. field:User.Active
+#. field:Lang.Active
+#. field:PartnerCategory.Active
+#. field:Partner.Active
+#. resource:base_view_currency_search
+#. resource:base_res_lang_search
+msgid "Active"
+msgstr "Aktívny"
+
+#. field:User.ActiveLangCount
+#. field:Partner.ActiveLangCount
+msgid "Active Lang Count"
+msgstr ""
+
+#. resource:base_view_company_form
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+msgid "Address"
+msgstr "Adresa"
+
+#. field:Country.AddressFormat
+msgid "Address Format"
+msgstr ""
+
+#. resource:base_view_country_form
+msgid "Address format..."
+msgstr "Formát adresy..."
+
+#. help:CountryState.Name
+msgid "Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
+msgstr "Administratívne rozdelenie krajiny. Napr. Fed. štát, kraj, okres"
+
+#. selection:Country.NamePosition
+msgid "After Address"
+msgstr "Po Adrese"
+
+#. selection:Currency.Position
+msgid "After Amount"
+msgstr "Po sume"
+
+#. resource:base_ir_cron_view_search
+msgid "All"
+msgstr "Všetko"
+
+#. resource:base_view_users_form
+msgid "Allowed Companies"
+msgstr "Povolené spoločnosti"
+
+#. resource:base_menu_translation_app
+msgid "Application Terms"
+msgstr "Výrazy aplikácie"
+
+#. resource:base_res_bank_view_search
+#. resource:base_view_res_partner_filter
+msgid "Archived"
+msgstr "Archivovaný"
+
+#. field:Cron.Arguments
+#. field:QueueJob.Arguments
+msgid "Arguments"
+msgstr ""
+
+#. resource:base_view_attachment_form
+msgid "Attached To"
+msgstr "Pripojené k"
+
+#. resource:base_view_attachment_search
+#. resource:base_action_attachment
+msgid "Attachment"
+msgstr "Príloha"
+
+#. field:Attachment.Name
+msgid "Attachment Name"
+msgstr "Meno prílohy"
+
+#. resource:base_menu_automation
+msgid "Automation"
+msgstr "Automatizácia"
+
+#. field:BankAccount.Bank
+#. resource:base_view_res_bank_form
+msgid "Bank"
+msgstr "Bank"
+
+#. field:User.Banks
+#. field:Partner.Banks
+#. resource:base_view_partner_bank_tree
+#. resource:base_view_partner_bank_search
+#. resource:base_action_res_partner_bank_account_form
+#. resource:base_res_partner_view_form_private
+msgid "Bank Accounts"
+msgstr "Bankové účty"
+
+#. resource:base_view_res_bank_form
+msgid "Bank Address"
+msgstr ""
+
+#. field:BankAccount.BankBIC
+msgid "Bank BIC"
+msgstr ""
+
+#. field:Bank.BIC
+msgid "Bank Identifier Code"
+msgstr "Identifikačné Číslo Banky"
+
+#. field:BankAccount.BankName
+#. resource:base_view_partner_bank_search
+msgid "Bank Name"
+msgstr "Názov banky"
+
+#. resource:base_view_partner_bank_form
+msgid "Bank account"
+msgstr "Bankový účet"
+
+#. resource:base_view_res_bank_tree
+#. resource:base_action_res_bank_form
+msgid "Banks"
+msgstr "Banky"
+
+#. field:User.Barcode
+#. field:Partner.Barcode
+msgid "Barcode"
+msgstr "Čiarový kód"
+
+#. selection:Country.NamePosition
+msgid "Before Address"
+msgstr "Pred Adresou"
+
+#. selection:Currency.Position
+msgid "Before Amount"
+msgstr "Pred čiastkou"
+
+#. resource:base_view_attachment_search
+msgid "Binary"
+msgstr "Binárny"
+
+#. resource:base_view_users_form_simple_modif
+#. resource:base_change_password_wizard_view
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#. code:
+msgid "Cannot duplicate configuration"
+msgstr ""
+
+#. field:QueueChannel.Capacity
+msgid "Capacity"
+msgstr ""
+
+#. resource:base_action_res_users_my
+msgid "Change My Preferences"
+msgstr "Zmeniť moje predvoľby"
+
+#. resource:base_change_password_wizard_view
+#. resource:base_change_password_wizard_view
+#. resource:base_change_password_wizard_action
+msgid "Change Password"
+msgstr "Zmeniť heslo"
+
+#. resource:base_view_users_form_simple_modif
+msgid "Change password"
+msgstr "Zmeniť heslo"
+
+#. code:
+msgid ""
+"Changing the company of a contact should only be done if it\n"
+"was never correctly set. If an existing contact starts working for a new\n"
+"company then a new contact should be created under that new\n"
+"company. You can use the \"Discard\" button to abandon this change."
+msgstr ""
+
+#. field:QueueJob.Channel
+#. resource:base_view_queue_job_search
+msgid "Channel"
+msgstr ""
+
+#. resource:base_view_queue_job_channel_tree
+#. resource:base_view_queue_job_channel_search
+#. resource:base_action_queue_job_channel
+msgid "Channels"
+msgstr ""
+
+#. help:User.IsCompany
+#. help:Partner.IsCompany
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Zaškrtnite toto pole, pokiaľ je kontakt firmou, inak budete jednať s osobou."
+
+#. help:User.Employee
+#. help:Partner.Employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Zaškrtnite toto pole, pokiaľ je kontakt zamestnanec."
+
+#. field:Attachment.CheckSum
+msgid "Checksum/SHA1"
+msgstr "Checksum/SHA1"
+
+#. field:Company.Children
+msgid "Child Companies"
+msgstr "Dcérske spoločnosti"
+
+#. field:User.Children
+#. field:Partner.Children
+msgid "Children"
+msgstr "Podradené"
+
+#. field:PartnerCategory.Children
+msgid "Children Tags"
+msgstr ""
+
+#. field:Company.City
+#. field:Bank.City
+#. field:User.City
+#. field:Partner.City
+#. resource:base_view_res_bank_form
+#. resource:base_view_company_form
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+msgid "City"
+msgstr "Mesto"
+
+#. field:User.Color
+#. field:Partner.Color
+msgid "Color"
+msgstr "Farba"
+
+#. field:PartnerCategory.Color
+msgid "Color Index"
+msgstr "Farebný index"
+
+#. field:User.CommercialCompanyName
+#. field:Partner.CommercialCompanyName
+msgid "Commercial Company Name"
+msgstr ""
+
+#. field:User.CommercialPartner
+#. field:Partner.CommercialPartner
+msgid "Commercial Entity"
+msgstr "Komerčný subjekt"
+
+#. field:User.Companies
+#. resource:base_view_company_tree
+#. resource:base_company_normal_action_tree
+#. resource:base_action_res_company_form
+#. resource:base_view_res_partner_filter
+msgid "Companies"
+msgstr "Spoločnosti"
+
+#. resource:base_view_users_form
+msgid "Companies count"
+msgstr "Počet spoločností"
+
+#. field:Attachment.Company
+#. field:Sequence.Company
+#. field:CurrencyRate.Company
+#. field:BankAccount.Company
+#. field:QueueJob.Company
+#. field:User.Company
+#. selection:User.CompanyType
+#. field:Partner.Company
+#. selection:Partner.CompanyType
+#. resource:base_view_attachment_search
+#. resource:base_view_company_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_simple_form
+#. resource:base_view_res_partner_filter
+#. resource:base_view_users_search
+msgid "Company"
+msgstr "Spoločnosť"
+
+#. field:Company.Favicon
+msgid "Company Favicon"
+msgstr ""
+
+#. field:Company.Name
+#. field:User.CompanyName
+#. field:Partner.CompanyName
+msgid "Company Name"
+msgstr "Meno spoločnosti"
+
+#. field:Company.CompanyRegistry
+msgid "Company Registry"
+msgstr "Register Spoločnosti"
+
+#. field:User.CompanyType
+#. field:Partner.CompanyType
+msgid "Company Type"
+msgstr "Druh spoločnosti"
+
+#. field:User.ContactAddress
+#. field:Partner.ContactAddress
+msgid "Complete Address"
+msgstr "Kompletná adresa"
+
+#. selection:User.Type
+#. selection:Partner.Type
+#. resource:base_view_partner_simple_form
+msgid "Contact"
+msgstr "Kontakt"
+
+#. resource:base_view_partner_form
+msgid "Contact / Address"
+msgstr "Kontakt / Adresa"
+
+#. resource:base_view_partner_form
+msgid "Contact Name"
+msgstr "Názov kontaktu"
+
+#. resource:base_view_partner_category_form
+msgid "Contact Tag"
+msgstr "Kontaktný štítok"
+
+#. resource:base_view_partner_category_list
+msgid "Contact Tags"
+msgstr "Kontaktné štítky"
+
+#. resource:base_action_partner_Title_contact
+msgid "Contact Titles"
+msgstr "Tituly Kontaktu"
+
+#. resource:base_view_partner_tree
+msgid "Contacts"
+msgstr "Kontakty"
+
+#. resource:base_view_partner_form
+msgid "Contacts & Addresses"
+msgstr "Kontakty a Adresy"
+
+#. code:
+msgid "Couldn't create contact without email address!"
+msgstr "Nie je možné vytvoriť kontakt bez e-mailovej adresy!"
+
+#. field:CountryGroup.Countries
+#. resource:base_action_country
+msgid "Countries"
+msgstr "Krajiny"
+
+#. field:CountryState.Country
+#. field:Company.Country
+#. field:Bank.Country
+#. field:User.Country
+#. field:Partner.Country
+#. resource:base_view_res_bank_form
+#. resource:base_view_company_form
+#. resource:base_view_country_tree
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+#. resource:base_view_res_partner_filter
+msgid "Country"
+msgstr "Krajina"
+
+#. field:Country.PhoneCode
+msgid "Country Calling Code"
+msgstr "Volací kód krajiny"
+
+#. field:Country.Code
+msgid "Country Code"
+msgstr "Kód krajiny"
+
+#. resource:base_view_country_group_tree
+#. resource:base_view_country_group_form
+msgid "Country Group"
+msgstr "Skupina krajín"
+
+#. field:Country.CountryGroups
+#. resource:base_action_country_group
+msgid "Country Groups"
+msgstr "Skupiny krajín"
+
+#. field:Country.Name
+msgid "Country Name"
+msgstr "Meno krajiny"
+
+#. resource:base_view_attachment_form
+msgid "Creation"
+msgstr "Vytvorené"
+
+#. resource:base_view_attachment_search
+msgid "Creation Month"
+msgstr "Mesiac vytvorenia"
+
+#. field:User.CreditLimit
+#. field:Partner.CreditLimit
+msgid "Credit Limit"
+msgstr "Limit kreditu"
+
+#. resource:base_view_currency_search
+#. resource:base_view_currency_tree
+#. resource:base_action_currency_form
+msgid "Currencies"
+msgstr "Meny"
+
+#. field:Country.Currency
+#. field:Currency.Name
+#. field:CurrencyRate.Currency
+#. field:Company.Currency
+#. field:BankAccount.Currency
+#. resource:base_view_currency_search
+#. resource:base_view_currency_form
+msgid "Currency"
+msgstr "Mena"
+
+#. help:Currency.Name
+msgid "Currency Code [ISO 4217]"
+msgstr ""
+
+#. resource:base_view_currency_rate_form
+msgid "Currency Rate"
+msgstr "Kurz meny"
+
+#. resource:base_view_currency_rate_tree
+#. resource:base_view_currency_rate_search
+#. resource:base_act_view_currency_rates
+msgid "Currency Rates"
+msgstr "Kurzy meny"
+
+#. help:Currency.Symbol
+msgid "Currency sign, to be used when printing amounts"
+msgstr ""
+
+#. field:Currency.Rate
+msgid "Current Rate"
+msgstr "Aktuálny kurz"
+
+#. resource:base_sequence_view
+msgid "Current Year with Century: %(year)s"
+msgstr "Aktuálny rok so storočím: %(year)s"
+
+#. resource:base_sequence_view
+msgid "Current Year without Century: %(y)s"
+msgstr "Aktuálny rok bez storočia: %(y)s"
+
+#. field:QueueJob.Retry
+msgid "Current try"
+msgstr ""
+
+#. resource:base_view_queue_job_form
+msgid "Current try / max. retries"
+msgstr ""
+
+#. resource:base_menu_administration_shortcut
+msgid "Custom Shortcuts"
+msgstr "Vlastné skratky"
+
+#. field:Country.NamePosition
+msgid "Customer Name Position"
+msgstr "Pozícia Názvu Zákazníka"
+
+#. resource:base_action_partner_form
+#. resource:base_action_partner_customer_form
+msgid "Customers"
+msgstr "Zákazníci"
+
+#. field:Attachment.DBDatas
+msgid "Database Data"
+msgstr "Databázové dáta"
+
+#. resource:base_menu_database_structure
+msgid "Database Structure"
+msgstr "Štruktúra databázy"
+
+#. field:Currency.Date
+#. field:CurrencyRate.Name
+#. field:User.Date
+#. field:Partner.Date
+#. resource:base_view_currency_rate_search
+msgid "Date"
+msgstr "Dátum"
+
+#. field:QueueJob.DateDone
+msgid "Date Done"
+msgstr ""
+
+#. field:QueueJob.DateEnqueued
+msgid "Date Enqueued"
+msgstr ""
+
+#. field:Lang.DateFormat
+msgid "Date Format"
+msgstr "Formát dátumu"
+
+#. field:QueueJob.DateStarted
+msgid "Date Started"
+msgstr ""
+
+#. resource:base_sequence_view
+msgid "Day of the Week (0:Monday): %(weekday)s"
+msgstr "Deň v týždni (0: pondelok): %(weekday)s"
+
+#. resource:base_sequence_view
+msgid "Day of the Year: %(doy)s"
+msgstr "Deň roka: %(doy)s"
+
+#. resource:base_sequence_view
+msgid "Day: %(day)s"
+msgstr "Deň: %(day)s"
+
+#. selection:Cron.IntervalType
+msgid "Days"
+msgstr "Dní"
+
+#. field:Currency.DecimalPlaces
+msgid "Decimal Places"
+msgstr "Desatinné Miesta"
+
+#. field:Lang.DecimalPoint
+msgid "Decimal Separator"
+msgstr "Desatinný oddelovač"
+
+#. resource:base_view_users_form
+msgid "Default Company"
+msgstr ""
+
+#. field:Attachment.Description
+#. resource:base_view_attachment_form
+msgid "Description"
+msgstr "Popis"
+
+#. help:Currency.Position
+msgid "Determines where the currency symbol should be placed after or before the amount."
+msgstr "Určuje kde by mal byť symbol meny umiestnený za alebo pred sumou."
+
+#. help:Country.NamePosition
+msgid "Determines where the customer/company name should be placed, i.e. after or before the address."
+msgstr "Určuje kde by mal byť názov odberatela/spoločnosti umiestnený, napr. za alebo pred adresou."
+
+#. field:Lang.Direction
+msgid "Direction"
+msgstr "Smer"
+
+#. resource:base_config_settings_view_form
+msgid "Discard"
+msgstr "Zrušiť"
+
+#. resource:base_view_currency_form
+msgid "Display"
+msgstr "Zobraziť"
+
+#. resource:base_view_queue_job_search
+msgid "Done"
+msgstr "Hotovo"
+
+#. help:User.PartnerShare
+#. help:Partner.PartnerShare
+msgid ""
+"Either customer (no user), either shared user. Indicated the current partner is a customer without\n"
+"access or with a limited access created for sharing data."
+msgstr ""
+
+#. field:Company.Email
+#. field:Bank.Email
+#. field:User.Email
+#. field:Partner.Email
+msgid "Email"
+msgstr "Email"
+
+#. resource:base_view_users_form
+msgid "Email Address"
+msgstr "Emailová adresa"
+
+#. field:User.EmailFormatted
+#. field:Partner.EmailFormatted
+msgid "Email Formatted"
+msgstr ""
+
+#. resource:base_view_users_form_simple_modif
+msgid "Email Preferences"
+msgstr "Emailové preferencie"
+
+#. field:User.Signature
+msgid "Email Signature"
+msgstr "Podpis"
+
+#. field:User.Employee
+#. field:Partner.Employee
+msgid "Employee"
+msgstr "Zamestnanec"
+
+#. resource:base_action_partner_employee_form
+msgid "Employees"
+msgstr "Zamestnanci"
+
+#. resource:base_view_queue_job_search
+msgid "Enqueued"
+msgstr ""
+
+#. code:
+msgid "Error ! You can not create recursive tags."
+msgstr "Chyba! Nemôžete vytvoriť rekurzívne menovky."
+
+#. resource:base_res_lang_form
+msgid "Examples"
+msgstr "Príklady"
+
+#. field:QueueJob.ExcInfo
+msgid "Exception Info"
+msgstr ""
+
+#. resource:base_view_queue_job_form
+msgid "Exception Information"
+msgstr ""
+
+#. field:QueueJob.ExecuteBeforeJobs
+msgid "Execute Before Jobs"
+msgstr ""
+
+#. field:QueueJob.ExecuteAfterJob
+#. field:QueueJob.ETA
+msgid "Execute only after"
+msgstr ""
+
+#. help:QueueJob.ExecuteAfterJob
+msgid "Execute the current job only after this one has been correctly executed"
+msgstr ""
+
+#. resource:base_ir_cron_view_search
+msgid "Execution"
+msgstr "Vykonanie"
+
+#. field:QueueChannel.HexyaExternalID
+#. field:PartnerTitle.HexyaExternalID
+#. field:PartnerIndustry.HexyaExternalID
+#. field:ConfigParameter.HexyaExternalID
+#. field:Cron.HexyaExternalID
+#. field:Currency.HexyaExternalID
+#. field:Sequence.HexyaExternalID
+#. field:CountryState.HexyaExternalID
+#. field:CurrencyRate.HexyaExternalID
+#. field:Group.HexyaExternalID
+#. field:CountryGroup.HexyaExternalID
+#. field:UserLog.HexyaExternalID
+#. field:Company.HexyaExternalID
+#. field:SequenceDateRange.HexyaExternalID
+#. field:Translation.HexyaExternalID
+#. field:Bank.HexyaExternalID
+#. field:BankAccount.HexyaExternalID
+msgid "External ID"
+msgstr "Externé ID"
+
+#. field:QueueChannel.HexyaVersion
+#. field:PartnerTitle.HexyaVersion
+#. field:PartnerIndustry.HexyaVersion
+#. field:ConfigParameter.HexyaVersion
+#. field:Cron.HexyaVersion
+#. field:Currency.HexyaVersion
+#. field:Sequence.HexyaVersion
+#. field:CountryState.HexyaVersion
+#. field:CurrencyRate.HexyaVersion
+#. field:Group.HexyaVersion
+#. field:CountryGroup.HexyaVersion
+#. field:UserLog.HexyaVersion
+#. field:Company.HexyaVersion
+#. field:SequenceDateRange.HexyaVersion
+#. field:Translation.HexyaVersion
+#. field:Bank.HexyaVersion
+#. field:BankAccount.HexyaVersion
+msgid "External Version"
+msgstr ""
+
+#. help:User.Share
+msgid "External user with limited access, created only for the purpose of sharing data."
+msgstr "Externý používateľ s obmedzným prístupon, vytvorený len pre účel zdieľania dát."
+
+#. resource:base_view_queue_job_search
+msgid "Failed"
+msgstr ""
+
+#. field:Bank.State
+msgid "Fed. State"
+msgstr "Federálny štát"
+
+#. resource:base_action_country_state
+msgid "Fed. States"
+msgstr "Federálne štáty"
+
+#. selection:Attachment.Type
+msgid "File"
+msgstr "Súbor"
+
+#. field:Attachment.Datas
+msgid "File Content"
+msgstr "Obsah súboru"
+
+#. field:Attachment.FileSize
+msgid "File Size"
+msgstr "Veľkosť súboru"
+
+#. resource:base_view_attachment_search
+msgid "Filter on my documents"
+msgstr "Filter na mojich dokumentoch"
+
+#. help:User.EmailFormatted
+#. help:Partner.EmailFormatted
+msgid "Formatted email address 'Name <email@domain>'"
+msgstr ""
+
+#. field:SequenceDateRange.DateFrom
+msgid "From"
+msgstr "Od"
+
+#. field:PartnerIndustry.FullName
+msgid "Full Name"
+msgstr "Celý Názov"
+
+#. resource:base_view_company_form
+msgid "General Information"
+msgstr "Všeobecné informácie"
+
+#. field:User.Latitude
+#. field:Partner.Latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. field:User.Longitude
+#. field:Partner.Longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. resource:base_view_groups_search
+msgid "Group"
+msgstr "Skupina"
+
+#. resource:base_view_attachment_search
+#. resource:base_ir_cron_view_search
+#. resource:base_view_res_partner_filter
+#. resource:base_view_queue_job_search
+msgid "Group By"
+msgstr "Zoskupiť podľa..."
+
+#. field:Group.GroupID
+msgid "Group ID"
+msgstr ""
+
+#. resource:base_view_country_group_form
+msgid "Group name"
+msgstr "Meno skupiny"
+
+#. field:ConfigParameter.Groups
+#. field:User.Groups
+#. resource:base_view_groups_tree
+#. resource:base_view_groups_search
+#. resource:base_menu_action_groups
+#. resource:base_action_res_groups
+#. resource:base_view_users_form
+#. code:
+msgid "Groups"
+msgstr "Skupiny"
+
+#. help:Sequence.Padding
+msgid "Hexya will automatically adds some '0' on the left of the 'Next Number' to get the required padding size."
+msgstr ""
+
+#. resource:base_view_attachment_form
+msgid "History"
+msgstr "História"
+
+#. field:User.ActionID
+msgid "Home Action"
+msgstr "Akcia po príhlásení"
+
+#. resource:base_action_open_website
+msgid "Home Menu"
+msgstr ""
+
+#. resource:base_sequence_view
+msgid "Hour 00->12: %(h12)s"
+msgstr "Hodina 00->12: %(h12)s"
+
+#. resource:base_sequence_view
+msgid "Hour 00->24: %(h24)s"
+msgstr "Hodina 00->24: %(h24)s"
+
+#. selection:Cron.IntervalType
+msgid "Hours"
+msgstr "Hodiny"
+
+#. field:Attachment.ID
+#. field:Country.ID
+#. field:ConfigSettings.ID
+#. field:ImageMixin.ID
+#. field:QueueChannel.ID
+#. field:PartnerTitle.ID
+#. field:PartnerIndustry.ID
+#. field:ConfigParameter.ID
+#. field:Cron.ID
+#. field:Currency.ID
+#. field:Sequence.ID
+#. field:CountryState.ID
+#. field:CurrencyRate.ID
+#. field:Group.ID
+#. field:CountryGroup.ID
+#. field:UserLog.ID
+#. field:Company.ID
+#. field:SequenceDateRange.ID
+#. field:Translation.ID
+#. field:UserChangePasswordWizard.ID
+#. field:UserChangePasswordWizardLine.ID
+#. field:Bank.ID
+#. field:BankAccount.ID
+#. field:QueueJob.ID
+#. field:User.ID
+#. field:Lang.ID
+#. field:PartnerCategory.ID
+#. field:Partner.ID
+msgid "ID"
+msgstr "ID"
+
+#. field:Lang.ISOCode
+msgid "ISO Code"
+msgstr "ISO kód"
+
+#. help:User.ActionID
+msgid "If specified, this action will be opened at log on for this user, in addition to the standard menu."
+msgstr "Ak je zadané, táto akcia bude otvorená pri nasledujúcom prihlásení použivateľa, okrem štandardného menu."
+
+#. help:User.Lang
+#. help:Partner.Lang
+msgid ""
+"If the selected language is loaded in the system, all documents related to\n"
+"this contact will be printed in this language. If not, it will be English."
+msgstr ""
+
+#. field:Country.Image
+#. field:ImageMixin.Image1920
+#. field:ImageMixin.Image1024
+#. field:ImageMixin.Image512
+#. field:ImageMixin.Image256
+#. field:ImageMixin.Image128
+#. field:User.Image
+#. field:User.Image512
+#. field:User.Image1024
+#. field:User.Image256
+#. field:User.Image1920
+#. field:User.Image128
+#. field:Partner.Image256
+#. field:Partner.Image
+#. field:Partner.Image512
+#. field:Partner.Image128
+#. field:Partner.Image1920
+#. field:Partner.Image1024
+msgid "Image"
+msgstr "Obrázok"
+
+#. field:User.ImageMedium
+#. field:Partner.ImageMedium
+msgid "Image Medium"
+msgstr ""
+
+#. field:User.ImageSmall
+#. field:Partner.ImageSmall
+msgid "Image Small"
+msgstr ""
+
+#. field:Sequence.Implementation
+msgid "Implementation"
+msgstr "Implementácia"
+
+#. resource:base_menu_translation_export
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#. resource:base_view_currency_search
+msgid "Inactive"
+msgstr "Neaktívne"
+
+#. field:Attachment.IndexContent
+#. resource:base_view_attachment_form
+msgid "Indexed Content"
+msgstr "Indexovaný obsah"
+
+#. selection:User.CompanyType
+#. selection:Partner.CompanyType
+msgid "Individual"
+msgstr "Individuálne"
+
+#. resource:base_view_res_partner_filter
+msgid "Individuals"
+msgstr "Jednotlivci"
+
+#. field:User.Industry
+#. field:Partner.Industry
+msgid "Industry"
+msgstr "Priemysel"
+
+#. resource:base_ir_cron_view
+msgid "Information"
+msgstr "Informácia"
+
+#. field:Country.AddressViewID
+msgid "Input View"
+msgstr "Vstupný Pohľad"
+
+#. resource:base_view_partner_form
+msgid "Internal Notes"
+msgstr "Interné poznámky"
+
+#. field:User.Ref
+#. field:Partner.Ref
+msgid "Internal Reference"
+msgstr "Vnútorná referencia"
+
+#. resource:base_view_partner_form
+msgid "Internal note..."
+msgstr "Interná poznámka..."
+
+#. resource:base_view_partner_form
+msgid "Internal notes..."
+msgstr ""
+
+#. field:Cron.IntervalNumber
+msgid "Interval Number"
+msgstr "Intervalové Číslo"
+
+#. field:Cron.IntervalType
+msgid "Interval Unit"
+msgstr "Intervalová Jednotka"
+
+#. code:
+msgid "Invalid search criterion: password"
+msgstr ""
+
+#. selection:User.Type
+#. selection:Partner.Type
+msgid "Invoice Address"
+msgstr "Fakturačná adresa"
+
+#. field:User.IsCompany
+#. field:Partner.IsCompany
+msgid "Is Company"
+msgstr "Je spoločnosť"
+
+#. field:Attachment.Public
+msgid "Is a public document"
+msgstr ""
+
+#. field:User.Function
+#. field:Partner.Function
+msgid "Job Position"
+msgstr "Pracovná pozícia"
+
+#. resource:base_view_queue_job_form
+#. resource:base_view_queue_job_tree
+#. resource:base_view_queue_job_search
+#. resource:base_action_queue_job
+msgid "Jobs"
+msgstr ""
+
+#. help:User.Password
+msgid "Keep empty if you don't want the user to be able to connect on the system."
+msgstr ""
+
+#. field:ConfigParameter.Key
+#. resource:base_view_ir_config_search
+msgid "Key"
+msgstr "Kľúč"
+
+#. field:User.Lang
+#. field:Partner.Lang
+#. resource:base_res_lang_search
+msgid "Language"
+msgstr "Jazyk"
+
+#. resource:base_res_lang_form
+#. resource:base_res_lang_search
+#. resource:base_res_lang_tree
+#. resource:base_res_lang_act_window
+msgid "Languages"
+msgstr "Jazyky"
+
+#. field:User.LoginDate
+msgid "Latest authentication"
+msgstr "Najnovšie pripojenie"
+
+#. selection:Lang.Direction
+msgid "Left-to-Right"
+msgstr "Zľava doprava"
+
+#. resource:base_sequence_view
+msgid "Legend (for prefix, suffix)"
+msgstr "Legenda (pre predponu, príponu)"
+
+#. resource:base_res_lang_form
+msgid "Legends for supported Date and Time Formats"
+msgstr "Legenda pre podporované formáty dátumu a času"
+
+#. help:QueueJob.ExecuteBeforeJobs
+msgid "List of jobs that will be executed after the current one"
+msgstr ""
+
+#. field:Lang.Code
+msgid "Locale Code"
+msgstr "Kód lokalizácie"
+
+#. resource:base_view_users_form
+msgid "Localization"
+msgstr "Lokalizácia"
+
+#. field:User.Login
+msgid "Login"
+msgstr "Prihlásiť"
+
+#. field:Company.Logo
+msgid "Logo"
+msgstr "Logo"
+
+#. field:Company.LogoWeb
+msgid "Logo Web"
+msgstr "Logo web"
+
+#. field:SequenceDateRange.Sequence
+msgid "Main Sequence"
+msgstr "Hlavná postupnosť"
+
+#. field:QueueJob.MaxRetries
+msgid "Max Retries"
+msgstr ""
+
+#. help:User.ImageMedium
+#. help:Partner.ImageMedium
+msgid ""
+"Medium-sized image of this contact. It is automatically\n"
+"resized as a 128x128px image, with aspect ratio preserved.\n"
+"Use this field in form views or some kanban views."
+msgstr ""
+
+#. resource:base_view_users_form
+msgid "Menus Customization"
+msgstr "Prispôsobenie ponúk"
+
+#. field:Cron.Method
+#. field:QueueJob.Method
+msgid "Method"
+msgstr ""
+
+#. field:Attachment.MimeType
+msgid "Mime Type"
+msgstr "Napodobniť typ"
+
+#. resource:base_sequence_view
+msgid "Minute: %(min)s"
+msgstr "Minúta: %(min)s"
+
+#. selection:Cron.IntervalType
+msgid "Minutes"
+msgstr "Minúty"
+
+#. resource:base_view_partner_form
+msgid "Misc"
+msgstr "Rôzne"
+
+#. field:User.Mobile
+#. field:Partner.Mobile
+msgid "Mobile"
+msgstr "Mobil"
+
+#. field:Cron.Model
+#. field:QueueJob.Model
+msgid "Model"
+msgstr "Model"
+
+#. resource:base_sequence_view
+msgid "Month: %(month)s"
+msgstr "Mesiac: %(month)s"
+
+#. selection:Cron.IntervalType
+msgid "Months"
+msgstr "Mesiace"
+
+#. resource:base_view_users_form
+msgid "Multi Companies"
+msgstr "Multi spoločnosti"
+
+#. resource:base_view_attachment_search
+msgid "My Document(s)"
+msgstr "Môj dokument(y)"
+
+#. field:QueueChannel.Name
+#. field:PartnerIndustry.Name
+#. field:Cron.Name
+#. field:Sequence.Name
+#. field:Group.Name
+#. field:CountryGroup.Name
+#. field:Bank.Name
+#. field:QueueJob.Name
+#. field:User.Name
+#. field:Lang.Name
+#. field:Partner.Name
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_tree
+#. resource:base_view_partner_simple_form
+msgid "Name"
+msgstr "Meno"
+
+#. field:UserChangePasswordWizardLine.NewPassword
+msgid "New Password"
+msgstr "Nové Heslo"
+
+#. field:Cron.NextCall
+msgid "Next Execution Date"
+msgstr "Dátum ďalšieho spustenia"
+
+#. field:Sequence.NumberNext
+#. field:Sequence.NumberNextActual
+#. field:SequenceDateRange.NumberNext
+#. field:SequenceDateRange.NumberNextActual
+msgid "Next Number"
+msgstr "Nasledujúce číslo"
+
+#. help:Sequence.NumberNext
+#. help:SequenceDateRange.NumberNext
+msgid "Next number of this sequence"
+msgstr "Nasledujúce číslo tejto postupnosti"
+
+#. help:Sequence.NumberNextActual
+#. help:SequenceDateRange.NumberNextActual
+msgid "Next number that will be used. This number can be incremented frequently so the displayed value might already be obsolete"
+msgstr "Nasledujúce číslo ktoré bude použité. Toto číslo môže byť často zvyšované takže zobrazená hodnota môže byť už zastaralá"
+
+#. help:Cron.NextCall
+msgid "Next planned execution date for this job."
+msgstr "Následujúci plánovaný dátum spustenia pre túto prácu."
+
+#. selection:Sequence.Implementation
+msgid "No Gap"
+msgstr ""
+
+#. field:User.Comment
+#. field:Partner.Comment
+msgid "Notes"
+msgstr "Poznámky"
+
+#. field:User.CompaniesCount
+msgid "Number of Companies"
+msgstr "Počet spoločností"
+
+#. help:User.GroupsCount
+msgid "Number of groups that apply to the current user"
+msgstr ""
+
+#. code:
+msgid "One2Many fields cannot be synchronized as part of 'commercial_fields' or 'address fields'"
+msgstr ""
+
+#. code:
+msgid "Only administrators can change the settings"
+msgstr "Iba správcovia môžu zmeniť nastavenia"
+
+#. code:
+msgid "Only administrators can execute this action."
+msgstr "Iba správcovia môžu vykonať túto akciu."
+
+#. selection:User.Type
+#. selection:Partner.Type
+msgid "Other Address"
+msgstr ""
+
+#. resource:base_action_partner_other_form
+msgid "Other Partners"
+msgstr "Iný partneri"
+
+#. resource:base_view_attachment_search
+msgid "Owner"
+msgstr "Vlastník"
+
+#. resource:base_menu_ir_property
+msgid "Parameters"
+msgstr "Parametre"
+
+#. field:User.Parent
+#. field:Partner.Parent
+msgid "Parent"
+msgstr "Nadradené"
+
+#. field:Company.Parent
+msgid "Parent Company"
+msgstr "Nadradená spoločnosť"
+
+#. field:User.ParentName
+#. field:Partner.ParentName
+msgid "Parent Name"
+msgstr ""
+
+#. field:PartnerCategory.Parent
+msgid "Parent Tag"
+msgstr ""
+
+#. field:Company.Partner
+#. resource:base_view_partner_address_form
+msgid "Partner"
+msgstr "Partner"
+
+#. field:User.ActivePartner
+msgid "Partner Is Active"
+msgstr ""
+
+#. resource:base_view_partner_Title_tree
+#. resource:base_view_partner_Title_form
+msgid "Partner Titles"
+msgstr "Partnerské tituly"
+
+#. field:User.SameVATPartner
+#. field:Partner.SameVATPartner
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. help:User.Partner
+msgid "Partner-related data of the user"
+msgstr "Súvisiace partnerské dáta užívateľa"
+
+#. field:PartnerCategory.Partners
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+msgid "Partners"
+msgstr "Partneri"
+
+#. field:User.Password
+msgid "Password"
+msgstr "Heslo"
+
+#. resource:base_view_queue_job_search
+msgid "Pending"
+msgstr ""
+
+#. field:Company.Phone
+#. field:Bank.Phone
+#. field:User.Phone
+#. field:Partner.Phone
+msgid "Phone"
+msgstr "Telefón"
+
+#. code:
+msgid "Please use the change password wizard (in User Preferences or User menu) to change your own password."
+msgstr "Prosím použite sprievodcu zmenou hesla (v užívateľskom nastavení alebo užívateľskom menu) pre zmenu svojho hesla."
+
+#. resource:base_view_users_form
+msgid "Preferences"
+msgstr "Predvoľby"
+
+#. field:Sequence.Prefix
+msgid "Prefix"
+msgstr "Predpona"
+
+#. help:Sequence.Prefix
+msgid "Prefix value of the record for the sequence"
+msgstr "Hodnota predpony záznamu pre postupnosť"
+
+#. resource:base_view_currency_form
+msgid "Price Accuracy"
+msgstr "Presnosť ceny"
+
+#. field:QueueJob.Priority
+msgid "Priority"
+msgstr "Priorita"
+
+#. selection:User.Type
+#. selection:Partner.Type
+msgid "Private Address"
+msgstr "Súkromná adresa"
+
+#. resource:base_res_partner_view_form_private
+msgid "Private Address Form"
+msgstr "Formulár súkromnej adresy"
+
+#. resource:base_view_partner_form
+msgid "Purchase"
+msgstr "Nákup"
+
+#. resource:base_menu_queue
+msgid "Queue"
+msgstr ""
+
+#. field:CurrencyRate.Rate
+msgid "Rate"
+msgstr "Kurz"
+
+#. field:Currency.Rates
+msgid "Rates"
+msgstr "Kurzy"
+
+#. field:Cron.RecordsIds
+#. field:QueueJob.RecordsIds
+msgid "Records Ids"
+msgstr ""
+
+#. resource:base_view_partner_form
+msgid "Reference"
+msgstr "Referencia"
+
+#. resource:base_view_queue_job_form
+msgid "Related"
+msgstr ""
+
+#. field:User.Partner
+msgid "Related Partner"
+msgstr "Súvisiaci partner"
+
+#. resource:base_menu_action_reload_groups
+#. resource:base_action_server_reload_groups
+msgid "Reload Groups"
+msgstr ""
+
+#. help:Cron.IntervalNumber
+msgid "Repeat every x."
+msgstr "Opakovať každých x."
+
+#. resource:base_view_queue_job_form
+msgid "Requeue Job"
+msgstr ""
+
+#. field:Attachment.ResField
+msgid "Resource Field"
+msgstr "Pole prostriedku"
+
+#. field:Attachment.ResID
+msgid "Resource ID"
+msgstr "ID prostriedku"
+
+#. field:Attachment.ResModel
+msgid "Resource Model"
+msgstr "Model prostriedku"
+
+#. field:Attachment.ResName
+msgid "Resource Name"
+msgstr "Meno prostriedku"
+
+#. field:QueueJob.Result
+#. resource:base_view_queue_job_form
+msgid "Result"
+msgstr ""
+
+#. selection:Lang.Direction
+msgid "Right-to-left"
+msgstr ""
+
+#. field:Currency.Rounding
+msgid "Rounding Factor"
+msgstr "Faktor zaokrúhlenia"
+
+#. resource:base_ir_cron_view
+msgid "Run Manually"
+msgstr "Spustiť manuálne"
+
+#. resource:base_view_partner_form
+msgid "Sales"
+msgstr "Predaje"
+
+#. resource:base_view_partner_form
+msgid "Sales & Purchase"
+msgstr ""
+
+#. field:User.User
+#. field:Partner.User
+#. resource:base_view_res_partner_filter
+msgid "Salesperson"
+msgstr "Predajca"
+
+#. field:BankAccount.SanitizedAccountNumber
+msgid "Sanitized Account Number"
+msgstr "Vylepšené číslo účtu"
+
+#. resource:base_config_settings_view_form
+#. resource:base_view_users_form_simple_modif
+msgid "Save"
+msgstr "Uložiť"
+
+#. resource:base_ir_cron_view_search
+msgid "Scheduled Action"
+msgstr "Naplánované akcie"
+
+#. resource:base_ir_cron_view
+#. resource:base_ir_cron_view_tree
+#. resource:base_ir_cron_view_calendar
+#. resource:base_ir_cron_view_search
+#. resource:base_ir_cron_act
+msgid "Scheduled Actions"
+msgstr "Naplánované akcie"
+
+#. resource:base_res_bank_view_search
+msgid "Search Bank"
+msgstr ""
+
+#. resource:base_view_res_partner_filter
+msgid "Search Partner"
+msgstr "Hľadať partnera"
+
+#. resource:base_config_settings_view_form
+msgid "Search..."
+msgstr "Hľadať..."
+
+#. resource:base_sequence_view
+msgid "Second: %(sec)s"
+msgstr "Hľadať: %(sec)s"
+
+#. field:Lang.Grouping
+msgid "Separator Format"
+msgstr "Formát oddeľovača"
+
+#. field:Company.Sequence
+#. field:BankAccount.Sequence
+#. resource:base_sequence_view
+#. resource:base_view_sequence_search
+msgid "Sequence"
+msgstr "Sekvencia"
+
+#. field:Sequence.Code
+msgid "Sequence Code"
+msgstr "Kód postupnosti"
+
+#. field:Sequence.Padding
+msgid "Sequence Size"
+msgstr "Veľkosť postupnosti"
+
+#. resource:base_sequence_date_range_tree
+#. resource:base_sequence_view
+#. resource:base_sequence_view_tree
+#. resource:base_view_sequence_search
+#. resource:base_ir_sequence_form
+msgid "Sequences"
+msgstr "Postupnosti"
+
+#. resource:base_menu_sequences_identifiers
+msgid "Sequences & Identifiers"
+msgstr "Postupnosti & identifikátory"
+
+#. field:User.NewPassword
+msgid "Set Password"
+msgstr "Nastaviť heslo"
+
+#. resource:base_view_queue_job_form
+msgid "Set to 'Done'"
+msgstr ""
+
+#. code:
+msgid "Setting empty passwords is not allowed for security reasons!"
+msgstr "Nastavovanie prázdnych hesiel nie je povolené z bezpečnostných dôvodov!"
+
+#. resource:base_config_settings_view_form
+#. resource:base_config_setting_act_window
+#. resource:base_menu_administration
+msgid "Settings"
+msgstr "Nastavenia"
+
+#. field:User.PartnerShare
+#. field:Partner.PartnerShare
+msgid "Share Partner"
+msgstr ""
+
+#. field:User.Share
+msgid "Share User"
+msgstr "Zdieľať užívateľa"
+
+#. selection:User.Type
+#. selection:Partner.Type
+msgid "Shipping Address"
+msgstr ""
+
+#. resource:base_view_currency_search
+msgid "Show active currencies"
+msgstr "Ukázať aktívne meny"
+
+#. resource:base_view_currency_search
+msgid "Show inactive currencies"
+msgstr "Ukázať neaktívne meny"
+
+#. help:User.ImageSmall
+#. help:Partner.ImageSmall
+msgid ""
+"Small-sized image of this contact. It is automatically\n"
+"resized as a 64x64px image, with aspect ratio preserved.\n"
+"Use this field anywhere a small image is required."
+msgstr ""
+
+#. help:Bank.BIC
+msgid "Sometimes called BIC or Swift."
+msgstr "Niekedy nazývané BIC alebo Swift."
+
+#. code:
+msgid "Sorry, the syntax 'name:agg(field)' is not available for attachments"
+msgstr ""
+
+#. code:
+msgid "Sorry, you are not allowed to access these fields on attachments."
+msgstr ""
+
+#. code:
+#. code:
+msgid "Sorry, you are not allowed to access this document."
+msgstr "Ospravedlňujeme sa, ale nemáte povolený prístup do tohto dokumentu."
+
+#. code:
+msgid "Sorry, you are not allowed to write on this document"
+msgstr ""
+
+#. code:
+msgid "Sorry, you must provide fields to read on attachments"
+msgstr ""
+
+#. help:User.NewPassword
+msgid ""
+"Specify a value only when creating a user or if you're\n"
+"changing the user's password, otherwise leave empty. After\n"
+"a change of password, the user has to login again."
+msgstr ""
+
+#. selection:Sequence.Implementation
+msgid "Standard"
+msgstr "Štandard"
+
+#. resource:base_view_queue_job_search
+msgid "Started"
+msgstr ""
+
+#. field:Company.State
+#. field:QueueJob.State
+#. field:User.State
+#. field:Partner.State
+#. resource:base_view_res_bank_form
+#. resource:base_view_company_form
+#. resource:base_view_country_state_tree
+#. resource:base_view_country_state_form
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+#. resource:base_view_queue_job_search
+msgid "State"
+msgstr "Stav"
+
+#. field:CountryState.Code
+msgid "State Code"
+msgstr "Kód štátu"
+
+#. field:CountryState.Name
+msgid "State Name"
+msgstr "Meno štátu"
+
+#. field:Country.States
+msgid "States"
+msgstr "Stavy"
+
+#. field:Sequence.NumberIncrement
+msgid "Step"
+msgstr "Krok"
+
+#. field:Attachment.StoreFname
+msgid "Stored Filename"
+msgstr "Uložené meno súboru"
+
+#. field:Company.Street
+#. field:Bank.Street
+#. field:User.Street
+#. field:Partner.Street
+msgid "Street"
+msgstr "Ulica"
+
+#. resource:base_view_res_bank_form
+#. resource:base_view_company_form
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+msgid "Street 2..."
+msgstr "Ulica 2..."
+
+#. resource:base_view_res_bank_form
+#. resource:base_view_company_form
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+msgid "Street..."
+msgstr "Ulica..."
+
+#. field:Company.Street2
+#. field:Bank.Street2
+#. field:User.Street2
+#. field:Partner.Street2
+msgid "Street2"
+msgstr "Ulica2"
+
+#. field:Sequence.DateRanges
+msgid "Subsequences"
+msgstr "Podpostupnosť"
+
+#. field:Sequence.Suffix
+msgid "Suffix"
+msgstr "Prípona"
+
+#. help:Sequence.Suffix
+msgid "Suffix value of the record for the sequence"
+msgstr "Prípona hodnoty záznamu pre postupnosť"
+
+#. field:Currency.Symbol
+msgid "Symbol"
+msgstr "Symbol"
+
+#. field:Currency.Position
+msgid "Symbol Position"
+msgstr "Pozícia symbolu"
+
+#. resource:base_view_ir_config_list
+#. resource:base_view_ir_config_form
+#. resource:base_ir_config_menu
+#. resource:base_ir_config_list_action
+msgid "System Parameters"
+msgstr "Parametre systému"
+
+#. resource:base_view_ir_config_search
+msgid "System Properties"
+msgstr "Vlastnosti systému"
+
+#. field:User.VAT
+#. field:Partner.VAT
+msgid "TIN"
+msgstr "DIČ"
+
+#. resource:base_view_res_partner_filter
+msgid "Tag"
+msgstr "Menovka"
+
+#. field:PartnerCategory.Name
+msgid "Tag Name"
+msgstr "Názov visačky"
+
+#. field:User.Categories
+#. field:Partner.Categories
+msgid "Tags"
+msgstr "Popisky"
+
+#. resource:base_view_partner_form
+msgid "Tags..."
+msgstr "Menovky..."
+
+#. help:User.VAT
+#. help:Partner.VAT
+msgid ""
+"Tax Identification Number.\n"
+"Fill it if the company is subjected to taxes.\n"
+"Used by the some of the legal statements."
+msgstr ""
+
+#. resource:base_menu_custom
+msgid "Technical"
+msgstr "Technické"
+
+#. resource:base_ir_cron_view
+msgid "Technical Data"
+msgstr "Technické údaje"
+
+#. help:Country.Code
+msgid "The ISO country code in two chars.\\nYou can use this field for quick search."
+msgstr ""
+
+#. help:Lang.Grouping
+msgid ""
+"The Separator Format should be like [,n] where 0 < n :starting from Unit digit.\"\n"
+"-1 will end the separation. e.g. [3,2,-1] will represent 106500 to be 1,06,500\"\n"
+"[1,2,-1] will represent it to be 106,50,0;[3] will represent it as 106,500.\"\n"
+"Provided ',' as the thousand separator in each case."
+msgstr ""
+
+#. code:
+msgid "The \\\"App Switcher\\\" action cannot be selected as home action."
+msgstr ""
+
+#. help:PartnerCategory.Active
+msgid "The active field allows you to hide the category without removing it."
+msgstr "Aktívne pole Vám umožní schovať kategóriu bez jej odstránenia."
+
+#. code:
+msgid "The chosen company is not in the allowed companies for this user"
+msgstr "Vybraná spoločnosť nie je medzi schválenými spoločnosťami tohto používateľa"
+
+#. help:User.Company
+msgid "The company this user is currently working for."
+msgstr "Spoločnosť pre, ktorú práve pracuje používateľ."
+
+#. help:Attachment.ResModel
+msgid "The database object this attachment will be attached to"
+msgstr ""
+
+#. help:Country.Name
+msgid "The full name of the country."
+msgstr "Celý názov krajiny."
+
+#. help:User.User
+#. help:Partner.User
+msgid "The internal user that is in charge of communicating with this contact if any."
+msgstr "Interný užívateľ, ktorý má na starosti komunikáciu s týmto kontaktom, ak existuje."
+
+#. help:QueueJob.MaxRetries
+msgid ""
+"The job will fail if the number of tries reach the max. retries.\n"
+"Retries are infinite when equals zero."
+msgstr ""
+
+#. help:Sequence.NumberIncrement
+msgid "The next number of the sequence will be incremented by this number"
+msgstr "Nasledovné číslo postupnosti bude zvýšené o toto číslo"
+
+#. help:User.TZ
+#. help:Partner.TZ
+msgid ""
+"The partner's timezone, used to output proper date and time values\n"
+"inside printed reports. It is important to set a value for this field.\n"
+"You should use the same timezone that is otherwise used to pick and\n"
+"render date and time values: your computer's timezone."
+msgstr ""
+
+#. help:Currency.Rate
+#. help:CurrencyRate.Rate
+msgid "The rate of the currency to the currency of rate 1"
+msgstr "Kurz meny ku kurzu meny 1"
+
+#. help:Attachment.ResID
+msgid "The record id this is attached to"
+msgstr ""
+
+#. help:CountryState.Code
+msgid "The state code in max. three chars."
+msgstr ""
+
+#. code:
+msgid "The user cannot have more than one user types."
+msgstr ""
+
+#. help:Lang.ISOCode
+msgid "This ISO code is the name of PO files to use for translations"
+msgstr ""
+
+#. help:User.Image
+#. help:Partner.Image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Toto pole obsahuje obrázok použitý ako avatar pre tento kontakt, obmedzený na 1024x1024px"
+
+#. help:Company.Favicon
+msgid "This field holds the image used to display a favicon for a given company."
+msgstr ""
+
+#. help:Lang.Code
+msgid "This field is used to set/get locales for user"
+msgstr "Toto pole je použité na nastavenie/získanie jazykového nastavenia používateľa"
+
+#. field:Lang.ThousandsSep
+msgid "Thousands Separator"
+msgstr "Oddelovač tisícov"
+
+#. field:Lang.TimeFormat
+msgid "Time Format"
+msgstr "Formát času"
+
+#. field:User.TZ
+#. field:Partner.TZ
+msgid "Timezone"
+msgstr "Časová zóna"
+
+#. field:User.TZOffset
+#. field:Partner.TZOffset
+msgid "Timezone Offset"
+msgstr ""
+
+#. field:PartnerTitle.Name
+#. field:User.Title
+#. field:Partner.Title
+msgid "Title"
+msgstr "Titul"
+
+#. field:SequenceDateRange.DateTo
+msgid "To"
+msgstr "Pre"
+
+#. field:Lang.Translatable
+#. resource:base_res_lang_search
+msgid "Translatable"
+msgstr "Preložitelné"
+
+#. code:
+msgid "Translate"
+msgstr "Preložiť"
+
+#. resource:base_menu_translation
+msgid "Translations"
+msgstr "Preklady"
+
+#. code:
+msgid "Trying to create a security group"
+msgstr ""
+
+#. code:
+msgid "Trying to modify a security group"
+msgstr ""
+
+#. help:Sequence.Implementation
+msgid ""
+"Two sequence object implementations are offered: Standard and 'No gap'.\n"
+"The latter is slower than the former but forbids any\n"
+"gap in the sequence (while they are possible in the former)."
+msgstr ""
+
+#. field:Attachment.Type
+#. field:User.Type
+#. field:Partner.Type
+#. resource:base_view_attachment_search
+msgid "Type"
+msgstr "Typ"
+
+#. field:Attachment.URL
+#. selection:Attachment.Type
+#. resource:base_view_attachment_search
+msgid "URL"
+msgstr "URL"
+
+#. resource:base_res_lang_tree
+msgid "Update Language Terms"
+msgstr "Aktualizovať jazykové výrazy"
+
+#. resource:base_res_lang_tree
+msgid "Update Terms"
+msgstr "Aktualizovať podmienky"
+
+#. help:Cron.RecordsIds
+#. help:QueueJob.RecordsIds
+msgid "Use a JSON list format (e.g. [1, 2])"
+msgstr ""
+
+#. help:Cron.Arguments
+#. help:QueueJob.Arguments
+msgid ""
+"Use a JSON list format (e.g. [[1, 2], \"My string value\", true]).\n"
+"For relation fields, pass the ID or the list of IDs"
+msgstr ""
+
+#. field:Sequence.UseDateRange
+msgid "Use subsequences per Date Range"
+msgstr ""
+
+#. help:Country.VATLabel
+msgid "Use this field if you want to change vat label."
+msgstr "Použite toto pole ak chcete zmeniť popis DPH. "
+
+#. help:Country.AddressViewID
+msgid ""
+"Use this field if you want to replace the usual way to encode a complete address.\n"
+"Note that the address_format field is used to modify the way to display addresses\n"
+"(in reports for example), while this field is used to modify the input form for\n"
+"addresses."
+msgstr ""
+
+#. help:User.Login
+msgid "Used to log into the system"
+msgstr "Používané na prihlásenie do systému"
+
+#. help:Company.Sequence
+msgid "Used to order Companies in the company switcher"
+msgstr "Použité na triedenie spoločností v prepínači spoločností"
+
+#. help:User.Type
+#. help:Partner.Type
+msgid ""
+"Used to select automatically the right address according to the context in sales and purchases documents. \n"
+"Private addresses are only visible by authorized users."
+msgstr "Použité na automatický výber správnej adresy vzhľadom na kontext obchodných dokumentov."
+
+#. field:Cron.User
+#. field:UserChangePasswordWizardLine.User
+#. field:QueueJob.User
+#. resource:base_ir_cron_view_search
+#. resource:base_view_users_search
+msgid "User"
+msgstr "Používateľ"
+
+#. resource:base_menu_user_interface
+msgid "User Interface"
+msgstr "Používateľské rozhranie"
+
+#. field:UserChangePasswordWizardLine.UserLogin
+msgid "User Login"
+msgstr "Prihlásenia používateľa"
+
+#. field:User.Logs
+msgid "User log entries"
+msgstr "Položky užívateľského protokolu "
+
+#. field:UserChangePasswordWizard.Users
+#. field:User.Users
+#. field:Partner.Users
+#. resource:base_menu_users
+#. resource:base_change_password_wizard_user_tree_view
+#. resource:base_view_users_tree
+#. resource:base_view_users_form
+#. resource:base_view_users_search
+#. resource:base_view_users_form_simple_modif
+#. resource:base_menu_action_users
+#. resource:base_action_res_users
+msgid "Users"
+msgstr "Používatelia"
+
+#. field:Company.VAT
+msgid "VAT"
+msgstr "DPH"
+
+#. field:Country.VATLabel
+msgid "VAT Label"
+msgstr ""
+
+#. field:ConfigParameter.Value
+msgid "Value"
+msgstr "Hodnota"
+
+#. resource:base_action_partner_supplier_form
+msgid "Vendors"
+msgstr "Predajcovia"
+
+#. resource:base_view_currency_form
+msgid "View Rates"
+msgstr "Kurzy zobrazenia"
+
+#. field:Company.Website
+#. field:User.Website
+#. field:Partner.Website
+msgid "Website"
+msgstr "Webová stránka"
+
+#. help:User.Website
+#. help:Partner.Website
+msgid "Website of Partner or Company"
+msgstr "Webovová stránka partnera alebo spoločnosti"
+
+#. resource:base_sequence_view
+msgid "Week of the Year: %(woy)s"
+msgstr "Tyždeň roka: %(woy)s"
+
+#. selection:Cron.IntervalType
+msgid "Weeks"
+msgstr "Týždne"
+
+#. field:UserChangePasswordWizardLine.Wizard
+msgid "Wizard"
+msgstr "Sprievodca"
+
+#. help:Attachment.Type
+msgid "You can either upload a file from your computer or copy/paste an internet link to your file."
+msgstr "Môžete nahrať súbor z počítača alebo kopírovať/vložiť internetový link k súboru."
+
+#. code:
+msgid "You can not change the company as the partner/user has multiple users linked with different companies."
+msgstr ""
+
+#. code:
+msgid "You can not remove the admin user as it is used internally for resources created by Hexya"
+msgstr ""
+
+#. help:Country.AddressFormat
+msgid ""
+"You can state here the usual format to use for the addresses belonging to this country.\n"
+"You can use Go-style string pattern with all the fields of the address \n"
+"(for example, use '{{ .Street }}' to display the field 'Street') plus\n"
+"{{ .StateName }}: the name of the state\n"
+"{{ .StateCode }}: the code of the state\n"
+"{{ .CountryName }}: the name of the country\n"
+"{{ .CountryCode }}: the code of the country\n"
+msgstr ""
+
+#. code:
+msgid "You cannot create recursive Partner hierarchies."
+msgstr "Nemožte vytvoriť rekurzívne partnerské hierarchie."
+
+#. code:
+msgid "You cannot deactivate the admin user."
+msgstr ""
+
+#. code:
+msgid "You cannot deactivate the user you're currently logged in as."
+msgstr "Nemožno deaktivovať prihláseného užívateľa "
+
+#. resource:base_view_res_bank_form
+#. resource:base_view_company_form
+#. resource:base_view_partner_address_form
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_res_partner_view_form_private
+msgid "ZIP"
+msgstr "PSČ"
+
+#. field:Company.Zip
+#. field:Bank.Zip
+#. field:User.Zip
+#. field:Partner.Zip
+msgid "Zip"
+msgstr "PSČ"
+
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+msgid "e.g. BE0477472701"
+msgstr "napr. BE0477472701"
+
+#. resource:base_view_partner_form
+msgid "e.g. Mister"
+msgstr ""
+
+#. resource:base_view_partner_form
+msgid "e.g. Mr."
+msgstr "napr. Pán"
+
+#. resource:view_partner_short_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_form
+#. resource:base_view_partner_simple_form
+msgid "e.g. Sales Director"
+msgstr "napr. Obchodný riaditeľ"
+
+#. resource:base_view_partner_address_form
+msgid "e.g. https//www.hexya.io"
+msgstr ""
+
+#. resource:base_view_company_form
+msgid "e.g. https://www.hexya.io"
+msgstr ""
+
+#. resource:base_view_partner_form
+msgid "e.g. https://www.odoo.com"
+msgstr "napr. https://www.odoo.com"
+
+#. code:
+msgid "error while hashing password: %s"
+msgstr ""
+

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+
+        <!-- change password wizard -->
+        <action id="base_change_password_wizard_action"
+                type="ir.actions.act_window"
+                name="Change Password"
+                src_model="User"
+                model="UserChangePasswordWizard"
+                view_type="form" view_mode="form"
+                target="new"
+                groups="base_group_erp_manager"/>
+
+        <view id="base_change_password_wizard_view" model="UserChangePasswordWizard">
+            <form string="Change Password">
+                <field name="Users"/>
+                <footer>
+                    <button string="Change Password" name="change_password_button" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-default" special="cancel"/>
+                </footer>
+            </form>
+        </view>
+
+        <view id="base_change_password_wizard_user_tree_view" model="UserChangePasswordWizardLine">
+            <!-- the user list is editable, but one cannot add or delete rows -->
+            <tree string="Users" editable="bottom" create="false" delete="false">
+                <field name="user_login" readonly="True"/>
+                <field name="new_password" required="True" password="True"/>
+            </tree>
+        </view>
+
+        <!-- Users -->
+        <view id="base_view_users_tree" model="User">
+            <tree string="Users">
+                <field name="Name"/>
+                <field name="Login"/>
+                <field name="Lang"/>
+                <field name="LoginDate"/>
+            </tree>
+        </view>
+
+        <view id="base_view_users_form" model="User">
+            <form string="Users">
+                <header>
+                </header>
+                <sheet>
+                    <field name="id" invisible="1"/>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_show_groups" type="object" groups="base_group_no_one"
+                                class="oe_stat_button" icon="fa-users">
+                            <field string="Groups" name="groups_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" text="Archived" bg_color="bg-danger"
+                            attrs="{'invisible': [('active', '=', True)]}"/>
+                    <field name="active_partner" required="0" readonly="1" invisible="1"/>
+                    <div class="alert alert-info text-center o_form_header"
+                         attrs="{'invisible': [
+                                '|', '|',
+                                '&amp;', ('active', '=', True), ('active_partner', '=', True),
+                                '&amp;', ('active', '=', False), ('active_partner', '=', False),
+                                '&amp;', ('active', '=', True), ('active_partner', '=', False)
+                            ]}"
+                         role="alert">
+                        <a class="close" data-dismiss="alert" href="#">x</a>
+                        <div>
+                            <strong>The contact linked to this user is still active</strong>
+                        </div>
+                        <div>You can archive the contact
+                            <field name="partner_id" required="0" readonly="1"/>
+                        </div>
+                    </div>
+                    <field name="image_1920" widget='image' class="oe_avatar" options='{"preview_image": "image_128"}'/>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only"/>
+                        <h1>
+                            <field name="name" required="1"/>
+                        </h1>
+                        <field name="email" invisible="1"/>
+                        <label for="login" class="oe_edit_only" string="Email Address"/>
+                        <h2>
+                            <field name="login"/>
+                        </h2>
+                        <group>
+                            <field name="partner_id" readonly="1" required="0" groups="base_group_no_one"
+                                   attrs="{'invisible': [('id', '=', False)]}"/>
+                        </group>
+                    </div>
+                    <notebook colspan="4">
+                        <page name="access_rights" string="Access Rights">
+                            <group string="Multi Companies" attrs="{'invisible': [('companies_count', '&lt;=', 1)]}">
+                                <field string="Allowed Companies" name="company_ids" widget="many2many_tags"
+                                       options="{'no_create': True}"/>
+                                <field string="Default Company" name="company_id" context="{'user_preference': 0}"/>
+                                <field string="Companies count" name="companies_count" invisible="1"/>
+                            </group>
+                            <label for="Groups"/>
+                            <field name="Groups" widget="many2many_tags"/>
+                        </page>
+                        <page string="Preferences">
+                            <group>
+                                <group string="Localization" name="preferences">
+                                    <field name="active" invisible="1"/>
+                                    <label for="lang"/>
+                                    <div class="o_row">
+                                        <field name="lang"/>
+                                        <button
+                                                type="action"
+                                                name="base_res_lang_act_window"
+                                                class="btn-sm btn-link mb4 fa fa-globe"
+                                                aria-label="More languages"
+                                                title="More languages"/>
+                                    </div>
+                                    <field name="tz" widget="timezone_mismatch"
+                                           options="{'tz_offset_field': 'tz_offset'}"/>
+                                    <field name="tz_offset" invisible="1"/>
+                                </group>
+                                <group string="Menus Customization" groups="base_group_no_one">
+                                    <field name="action_id"/>
+                                </group>
+                            </group>
+                            <group name="messaging">
+                                <field name="signature"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </view>
+
+        <view id="base_view_users_search" model="User">
+            <search string="Users">
+                <field name="Name"
+                       filter_domain="['|', '|', ('Name','ilike',self), ('Login','ilike',self), ('Email','ilike',self)]"
+                       string="User"/>
+                <field name="Companies" string="Company"/><!-- groups="base_group_multi_company"/>-->
+            </search>
+        </view>
+
+        <action id="base_action_res_users" type="ir.actions.act_window" name="Users" model="User"
+                view_id="base_view_users_tree" search_view_id="base_view_users_search" view_mode="tree,form"/>
+
+        <menuitem id="base_menu_action_users" name="Users" sequence="1" action="base_action_res_users"
+                  parent="base_menu_users"/>
+
+        <view id="base_view_users_form_simple_modif" model="User" priority="18">
+            <form string="Users">
+                <field name="image" readonly="0" widget='image' class="oe_right oe_avatar"
+                       options='{"preview_image": "image_small"}'/>
+                <h1>
+                    <field name="name" readonly="1" class="oe_inline"/>
+                </h1>
+                <button name="preference_change_password" type="object" string="Change password" class="oe_link"/>
+                <group name="preferences" col="4">
+                    <field name="lang" readonly="0"/>
+                    <field name="tz" widget="timezone_mismatch" options="{'tz_offset_field': 'tz_offset'}"
+                           readonly="0"/>
+                    <field name="tz_offset" invisible="1"/>
+                    <field name="company_id" options="{'no_create': True}" readonly="0"
+                           groups="base_group_multi_company"/>
+                </group>
+                <group string="Email Preferences">
+                    <field name="email" widget="email" readonly="0"/>
+                    <field name="signature" readonly="0"/>
+                </group>
+                <footer>
+                    <button name="preference_save" type="object" string="Save" class="btn-primary"/>
+                    <button name="preference_cancel" string="Cancel" special="cancel" class="btn-default"/>
+                </footer>
+            </form>
+        </view>
+
+        <action id="base_action_res_users_my" type="ir.actions.act_window" name="Change My Preferences" model="User"
+                target="new" view_mode="form" view_id="base_view_users_form_simple_modif"/>
+
+    </data>
+</hexya>

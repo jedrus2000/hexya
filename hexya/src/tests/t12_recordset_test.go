@@ -17,10 +17,10 @@ package tests
 import (
 	"testing"
 
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/q"
 	"github.com/jedrus2000/hexya/hexya/src/models"
 	"github.com/jedrus2000/hexya/hexya/src/models/security"
+	"github.com/jedrus2000/hexya/pool/h"
+	"github.com/jedrus2000/hexya/pool/q"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

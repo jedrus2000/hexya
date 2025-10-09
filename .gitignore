@@ -75,14 +75,14 @@ _testmain.go
 *.prof
 
 # Hexya Specifics
-pool/
-/src/server/static/
-/src/server/templates/
-/src/server/data/
-/src/server/demo/
+/hexya/pool/
+/hexya/src/server/static/
+/hexya/src/server/templates/
+/hexya/src/server/data/
+/hexya/src/server/demo/
 /coverage.txt
-/xsd/
-/src/server/resources/
-/src/server/i18n/
+/hexya/xsd/
+/hexya/src/server/resources/
+/hexya/src/server/i18n/
 /.claude/
 /hexya.toml

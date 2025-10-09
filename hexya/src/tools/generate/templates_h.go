@@ -16,10 +16,10 @@ package {{ .ModelsPackageName }}
 import (
 	"github.com/jedrus2000/hexya/hexya/src/models"
 {{- if ne .ModelType "Mixin" }}	
-	"github.com/hexya-erp/pool/{{ .QueryPackageName }}"
+	"github.com/jedrus2000/hexya/pool/{{ .QueryPackageName }}"
 {{- end }}
-	"github.com/hexya-erp/pool/{{ .ModelsPackageName }}/{{ .SnakeName }}"
-    "github.com/hexya-erp/pool/{{ .InterfacesPackageName }}"
+	"github.com/jedrus2000/hexya/pool/{{ .ModelsPackageName }}/{{ .SnakeName }}"
+    "github.com/jedrus2000/hexya/pool/{{ .InterfacesPackageName }}"
 )
 
 // ------- MODEL ---------
@@ -143,8 +143,8 @@ var poolModelsDirTemplate = template.Must(template.New("").Parse(`
 package {{ .SnakeName }}
 
 import (
-    "github.com/hexya-erp/pool/{{ .QueryPackageName }}"
-    "github.com/hexya-erp/pool/{{ .InterfacesPackageName }}"
+    "github.com/jedrus2000/hexya/pool/{{ .QueryPackageName }}"
+    "github.com/jedrus2000/hexya/pool/{{ .InterfacesPackageName }}"
 {{ range .Deps }} 	"{{ . }}"
 {{ end }}
 )

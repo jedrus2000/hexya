@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
-	"github.com/hexya-erp/pool/q"
 	"github.com/jedrus2000/hexya/hexya/src/actions"
 	"github.com/jedrus2000/hexya/hexya/src/models"
 	"github.com/jedrus2000/hexya/hexya/src/models/fields"
 	"github.com/jedrus2000/hexya/hexya/src/models/security"
 	"github.com/jedrus2000/hexya/hexya/src/models/types"
+	"github.com/jedrus2000/hexya/pool/h"
+	"github.com/jedrus2000/hexya/pool/m"
+	"github.com/jedrus2000/hexya/pool/q"
 )
 
 var (

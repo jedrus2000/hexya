@@ -13,7 +13,7 @@ package {{ .QueryPackageName }}
 
 import (
 	"github.com/jedrus2000/hexya/hexya/src/models"
-	"github.com/hexya-erp/pool/{{ .QueryPackageName }}/{{ .SnakeName }}"
+	"github.com/jedrus2000/hexya/pool/{{ .QueryPackageName }}/{{ .SnakeName }}"
 )
 
 type {{ .Name }}Condition = {{ .SnakeName }}.Condition
