@@ -1,4 +1,4 @@
-module github.com/hexya-addons/decimalPrecision
+module github.com/jedrus2000/hexya/addons/decimalPrecision
 
 go 1.24.0
 
