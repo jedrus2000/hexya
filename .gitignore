@@ -4,7 +4,7 @@
 
 *.iml
 
-hexya
+/hexya/hexya
 
 ## Directory-based project format:
 .idea/
