@@ -7,14 +7,14 @@ set -e  # Exit on error
 # Define tags
 TAGS=(
     #"addons/base/v0.3.0"
-    #"addons/web/v0.3.0"
+    "addons/web/v0.5.0"
     #"addons/decimalPrecision/v0.2.0"
-    "addons/sale/v0.4.0"
-    #"addons/saleTeams/v0.2.0"
-    "addons/account/v0.4.0"
-    "addons/procurement/v0.4.0"
-    "addons/product/v0.4.0"
-    "addons/analytic/v0.4.0"
+    "addons/sale/v0.5.0"
+    "addons/saleTeams/v0.5.0"
+    "addons/account/v0.5.0"
+    "addons/procurement/v0.5.0"
+    "addons/product/v0.5.0"
+    "addons/analytic/v0.5.0"
     #"hexya/v0.3.0"
     #"pool/v0.2.0"
 )

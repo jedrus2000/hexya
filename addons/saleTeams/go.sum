@@ -61,6 +61,10 @@ github.com/hexya-erp/hexya v0.0.30/go.mod h1:zBBxxDyorcYC+zUNEySKzeg+N+Q/FPQYOQh
 github.com/hexya-erp/pool v1.0.2 h1:T2XNgink3bnFK5I8ae2hyFGAI0e2AF/GUWVwe7q8d5Q=
 github.com/hexya-erp/pool v1.0.2/go.mod h1:DucbMZy2Dy4JSDgyYR8PIi8wgSmH1E6VV1dJE6WKRY8=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
+github.com/jedrus2000/hexya/addons/base v0.3.0/go.mod h1:yYbUIfIiL16CZ2neG5GdK/jIkUTL3ydl7IrusavEwUM=
+github.com/jedrus2000/hexya/addons/web v0.3.0/go.mod h1:DuqqyVVWr0FvGjjOhK19SjV1ij3RsHUcpciwZ91dBbY=
+github.com/jedrus2000/hexya/hexya v0.3.0/go.mod h1:/2JoYlkSgpJ+FXzmy/QDuHWLcYXdGFl/xPeXmU/BoUY=
+github.com/jedrus2000/hexya/pool v0.2.0/go.mod h1:rMCaAE/RszEFHzCNRbC58HKnU7j10v2TGnvaC4z2KVo=
 github.com/jmoiron/sqlx v1.2.0 h1:41Ip0zITnmWNR/vHV+S4m+VoUivnWY5E4OJfLZjCJMA=
 github.com/jmoiron/sqlx v1.2.0/go.mod h1:1FEQNm3xlJgrMD+FBdI9+xvCksHtbpVBBw5dYhBSsks=
 github.com/json-iterator/go v1.1.5 h1:gL2yXlmiIo4+t+y32d4WGwOjKGYcGOuyrg46vadswDE=

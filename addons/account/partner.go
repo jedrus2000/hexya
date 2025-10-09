@@ -2,7 +2,7 @@ package account
 
 import (
 	"github.com/jedrus2000/hexya/addons/base"
-	"github.com/jedrus2000/hexya/addons/web/webdata"
+	"github.com/jedrus2000/hexya/addons/web/webtypes"
 	"github.com/jedrus2000/hexya/hexya/src/actions"
 	"github.com/jedrus2000/hexya/hexya/src/models"
 	"github.com/jedrus2000/hexya/hexya/src/models/operator"
@@ -644,7 +644,7 @@ credit or if you click the "Done" button.`},
 	h.Partner().Methods().MarkAsReconciled().DeclareMethod(
 		`MarkAsReconciled`,
 		func(rs m.PartnerSet) bool {
-			h.AccountPartialReconcile().NewSet(rs.Env()).CheckAccessRights(webdata.CheckAccessRightsArgs{"write", true})
+			h.AccountPartialReconcile().NewSet(rs.Env()).CheckAccessRights(webtypes.CheckAccessRightsArgs{"write", true})
 			return rs.Sudo().Write(h.Partner().NewData().SetLastTimeEntriesChecked(dates.Now()))
 		})
 

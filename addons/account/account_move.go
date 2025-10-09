@@ -11,7 +11,7 @@ import (
 
 	"github.com/jedrus2000/hexya/addons/account/accounttypes"
 	"github.com/jedrus2000/hexya/addons/decimalPrecision"
-	"github.com/jedrus2000/hexya/addons/web/webdata"
+	"github.com/jedrus2000/hexya/addons/web/webtypes"
 	"github.com/jedrus2000/hexya/hexya/src/actions"
 	"github.com/jedrus2000/hexya/hexya/src/i18n"
 	"github.com/jedrus2000/hexya/hexya/src/models"
@@ -184,10 +184,10 @@ will be created in 'Posted' status.'`},
 		})
 
 	h.AccountMove().Methods().FieldsViewGet().Extend("",
-		func(rs m.AccountMoveSet, args webdata.FieldsViewGetParams) *webdata.FieldsViewData {
+		func(rs m.AccountMoveSet, args webtypes.FieldsViewGetParams) *webtypes.FieldsViewData {
 			res := rs.Super().FieldsViewGet(args)
 			if rs.Env().Context().GetBool("vat_domain") {
-				res.Fields["line_ids"].Views["tree"].(*webdata.FieldsViewData).Fields["tax_line_id"].Domain = "[('tag_ids', 'in', [self.env.ref(self._context.get('vat_domain')).id])]"
+				res.Fields["line_ids"].Views["tree"].(*webtypes.FieldsViewData).Fields["tax_line_id"].Domain = "[('tag_ids', 'in', [self.env.ref(self._context.get('vat_domain')).id])]"
 				//tovalid is this correct? from res['fields']['line_ids']['views']['tree']['fields']['tax_line_id']['domain'] = [('tag_ids', 'in', [self.env.ref(self._context.get('vat_domain')).id])]
 			}
 			return res

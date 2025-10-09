@@ -107,7 +107,7 @@ func searchReadAdapter(rc *models.RecordCollection, method string, args []interf
 	checkMethod(method, "SearchRead", args, 1)
 	params, ok := args[0].(webtypes.SearchParams)
 	if !ok {
-		log.Panic("Expected arg for SearchRead method to be webdata.SearchParams", "argType", fmt.Sprintf("%T", args[0]))
+		log.Panic("Expected arg for SearchRead method to be webtypes.SearchParams", "argType", fmt.Sprintf("%T", args[0]))
 	}
 	res := rc.Call("SearchRead", params).([]models.RecordData)
 	for i, data := range res {

@@ -11,7 +11,7 @@ import (
 
 	"github.com/jedrus2000/hexya/addons/account/accounttypes"
 	"github.com/jedrus2000/hexya/addons/decimalPrecision"
-	"github.com/jedrus2000/hexya/addons/web/webdata"
+	"github.com/jedrus2000/hexya/addons/web/webtypes"
 	"github.com/jedrus2000/hexya/hexya/src/actions"
 	"github.com/jedrus2000/hexya/hexya/src/models"
 	"github.com/jedrus2000/hexya/hexya/src/models/operator"
@@ -607,7 +607,7 @@ A Company bank account if this is a Customer Invoice or Vendor Refund, otherwise
 		})
 
 	h.AccountInvoice().Methods().FieldsViewGet().Extend("",
-		func(rs m.AccountInvoiceSet, params webdata.FieldsViewGetParams) *webdata.FieldsViewData {
+		func(rs m.AccountInvoiceSet, params webtypes.FieldsViewGetParams) *webtypes.FieldsViewData {
 			if !(rs.Env().Context().GetString("active_model") == "res.partner" && rs.Env().Context().Get("acive_ids") != nil) {
 				return rs.Super().FieldsViewGet(params)
 			}
@@ -1782,7 +1782,7 @@ A Company bank account if this is a Customer Invoice or Vendor Refund, otherwise
 		})
 
 	h.AccountInvoiceLine().Methods().FieldsViewGet().Extend("",
-		func(rs m.AccountInvoiceLineSet, args webdata.FieldsViewGetParams) *webdata.FieldsViewData {
+		func(rs m.AccountInvoiceLineSet, args webtypes.FieldsViewGetParams) *webtypes.FieldsViewData {
 			res := rs.Super().FieldsViewGet(args)
 			typ := rs.Env().Context().GetString("type")
 			if typ == "" {

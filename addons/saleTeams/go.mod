@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/jedrus2000/hexya/addons/base v0.3.0
-	github.com/jedrus2000/hexya/addons/web v0.3.0
+	github.com/jedrus2000/hexya/addons/web v0.5.0
 	//
     // github.com/jedrus2000/hexya/addons/webKanban v0.0.30
     // This project is archived. All features of this module are now in the web module
