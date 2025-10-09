@@ -6,8 +6,8 @@ require (
 	github.com/beevik/etree v1.6.0
 	github.com/gin-contrib/sessions v1.0.4
 	github.com/gin-gonic/gin v1.11.0
-	github.com/jedrus2000/hexya/addons/base v0.2.0
-	github.com/jedrus2000/hexya/hexya v0.2.0
+	github.com/jedrus2000/hexya/addons/base v0.3.0
+	github.com/jedrus2000/hexya/hexya v0.3.0
 	github.com/jedrus2000/hexya/pool v0.2.0
 	github.com/smartystreets/goconvey v1.8.1
 	github.com/spf13/viper v1.21.0

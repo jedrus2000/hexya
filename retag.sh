@@ -6,9 +6,9 @@ set -e  # Exit on error
 
 # Define tags
 TAGS=(
-    "addons/base/v0.2.0"
-    "addons/web/v0.2.0"
-    "hexya/v0.2.0"
+    "addons/base/v0.3.0"
+    "addons/web/v0.3.0"
+    "hexya/v0.3.0"
     "pool/v0.2.0"
 )
 
