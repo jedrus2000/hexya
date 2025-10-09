@@ -3,7 +3,7 @@ module github.com/jedrus2000/hexya/addons/account
 go 1.24.0
 
 require (
-	github.com/jedrus2000/hexya/addons/analytic v0.3.0
+	github.com/jedrus2000/hexya/addons/analytic v0.4.0
 	github.com/jedrus2000/hexya/addons/base v0.3.0
 	github.com/jedrus2000/hexya/addons/decimalPrecision v0.2.0
 	github.com/jedrus2000/hexya/addons/web v0.3.0
